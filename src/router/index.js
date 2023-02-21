@@ -1,31 +1,21 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HomeView from "../views/HomeView.vue";
-import UnidadeView from "@/views/UnidadeView.vue";
+import ProdutoView from "@/views/ProdutoView.vue";
 import AboutView from "@/views/AboutView.vue"
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
-    name: "home",
-    component: HomeView,
-  },
-  {
     path: "/about",
     name: "about",
     component: AboutView,
   },
   {
-    path: "/unidades",
-    name: "unidades",
-    component: UnidadeView,
+    path: "/",
+    name: "produto",
+    component: ProdutoView,
   },
-  {
-    path: "/tarefas"
-    
-  }
 ];
 
 const router = new VueRouter({

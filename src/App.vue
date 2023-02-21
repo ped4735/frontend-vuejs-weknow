@@ -3,8 +3,7 @@
     <div v-if="loggin">
     <b-card-header header-bg-variant="info">
         <b-nav card-header tabs class="mt-2 ml-1">
-          <b-nav-item to="/" exact exact-active-class="active">HOME</b-nav-item>
-          <b-nav-item to="/unidades" exact exact-active-class="active">PRODUTOS</b-nav-item>
+          <b-nav-item to="/" exact exact-active-class="active">CADASTRO PRODUTOS</b-nav-item>
           <b-nav-item to="/about" exact exact-active-class="active">ABOUT</b-nav-item>
         </b-nav>
     </b-card-header>

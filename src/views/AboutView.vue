@@ -1,10 +1,6 @@
 <template>
-  <div>
-    <h1>Projeto para testar a combinação de VueJs2 + Bootstrap 4</h1>
+  <div class="text-center">
+    <h1>Projeto Desafio Weknow</h1>
+    <p>Utiliza VueJS2 + Bootstrap Vue</p>
   </div>
 </template>
-<style>
-  h1{
-    text-align: center;
-  }
-</style>
